@@ -1,61 +1,39 @@
-# Matriz de Rastreabilidade — BiblioTech
+# Matriz de Rastreabilidade — Gabarito
 
-## Objetivo
+| Requisito | Casos sugeridos |
+|---|---|
+| RF01 | CT01, CT02, CT03, CT04, CT05, CT06 |
+| RF02 | CT07, CT08, CT09, CT10, CT11 |
+| RF03 | CT12, CT13, CT14, CT15, CT16, CT17 |
 
-Relacionar requisitos aos casos de teste e verificar se todos os requisitos possuem evidências de validação.
+## RF01
 
----
+Cobertura esperada:
 
-| Requisito | Casos de Caixa Preta | Casos de Caixa Branca | Coberto? |
-|---|---|---|---|
-| RF01 | | | |
-| RF02 | | | |
-| RF03 | | | |
+- usuário válido;
+- usuário inativo;
+- usuário com pendência;
+- limite válido;
+- fronteira crítica;
+- acima do limite.
 
----
+## RF02
 
-# Análise
+Cobertura esperada:
 
-## Existe requisito sem teste?
+- atraso negativo/zero;
+- início da multa;
+- final da primeira faixa;
+- início da segunda faixa.
 
-Resposta:
+## RF03
 
----
+Cobertura esperada:
 
-## Existe caso de teste sem requisito claramente associado?
-
-Resposta:
-
----
-
-## Qual requisito apresentou maior risco durante a atividade?
-
-Resposta:
-
----
-
-## Justificativa
-
-Resposta:
-
----
-
-# Cobertura
-
-## Cobertura de linhas
-
-Resultado:
-
-__________ %
-
-## Cobertura de branches
-
-Resultado:
-
-__________ %
-
----
-
-# Observações
-
--
+- sem atraso;
+- atraso leve;
+- atraso moderado;
+- atraso grave;
+- fronteiras 0/1;
+- 7/8;
+- 30/31.
