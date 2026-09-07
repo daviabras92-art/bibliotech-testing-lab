@@ -36,7 +36,7 @@ Verificar se as funcionalidades do módulo de empréstimos do BiblioTech atendem
 - Validação de tipos de dados
 - Persistência das operações
 
----
+--- 
 
 ## 4. Estratégia
 
