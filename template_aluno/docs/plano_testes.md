@@ -73,7 +73,7 @@ Aspectos estruturais analisados:
 
 **Repositório:** GitHub
 
----
+--- 
 
 ## 6. Critérios de entrada
 
