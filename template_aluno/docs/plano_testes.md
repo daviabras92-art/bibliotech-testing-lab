@@ -2,11 +2,11 @@
 
 ## 1. Identificação
 
-**Equipe:**
+**Equipe:** Individual
 
-**Integrantes:**
+**Integrantes:** Davi Abras Scalabrini RA: 325145524
 
-**Data:**
+**Data:** 07/09/2026
 
 ---
 
@@ -14,7 +14,7 @@
 
 Descreva o objetivo da atividade de teste.
 
-Resposta:
+Resposta: Verificar se as funcionalidades do módulo de empréstimos do BiblioTech atendem aos requisitos especificados, utilizando técnicas de teste de caixa preta e caixa branca, automatização com pytest e análise de cobertura de código para produzir evidências apoiando o parecer técnico de QA sobre a liberação da versão
 
 ---
 
@@ -22,11 +22,21 @@ Resposta:
 
 ### Funcionalidades que serão testadas
 
--
+- RF01 — Permissão para empréstimo
+- RF02 — Cálculo de multa
+- RF03 — Classificação de atraso
 
 ### Fora do escopo
 
--
+- Interface gráfica
+- Banco de dados
+- Autenticação
+- Segurança;
+- Desempenho;
+- Acessibilidade;
+- Integração com sistemas externos;
+- Validação de tipos de dados;
+- Persistência das operações.
 
 ---
 
@@ -36,10 +46,10 @@ Resposta:
 
 Marque as técnicas utilizadas:
 
-- [ ] Particionamento de equivalência
-- [ ] Análise de valores-limite
-- [ ] Cenários positivos
-- [ ] Cenários negativos
+- [x] Particionamento de equivalência
+- [x] Análise de valores-limite
+- [x] Cenários positivos
+- [x] Cenários negativos
 
 ### Caixa Branca
 
